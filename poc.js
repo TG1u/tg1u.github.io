@@ -11,9 +11,6 @@
               fetch(webhookUrl, {
                   method: 'POST',
                   headers: { 'Content-Type': 'application/json' },
-                  headers: { 'Access-Control-Allow-Origin': '*' },
-                  headers: { 'Access-Control-Allow-Methods': 'POST, OPTIONS' },
-                  headers: { 'Access-Control-Allow-Headers': 'Content-Type' },
                   body: JSON.stringify({ pdf: pdfData })
               });
           };
